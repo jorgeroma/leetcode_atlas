@@ -32,26 +32,6 @@ Each pattern includes:
 
 Your progress (solved problems, quiz results) is saved in your browser's `localStorage`. Nothing is sent to any server.
 
-## Usage
-
-It's a single self-contained HTML file. No build step, no dependencies to install.
-
-```bash
-git clone https://github.com/jorgeroma/leetcode_atlas.git
-cd leetcode_atlas
-open index.html        # macOS
-xdg-open index.html    # Linux
-```
-
-Or serve it locally:
-
-```bash
-python3 -m http.server
-# then visit http://localhost:8000
-```
-
-An internet connection is needed for fonts (Google Fonts) and syntax highlighting (Prism.js via cdnjs). Light and dark themes follow your system preference.
-
 ## Contributing
 
 Issues and pull requests are welcome: typo fixes, better explanations, new problems or patterns.
